@@ -31,3 +31,16 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.301-b09, mixed mode)`
 ## run 
 
 `mvn exec:java`
+
+## output
+
+`java.lang.StackOverflowError
+        at java.util.regex.Pattern$CharProperty.match(Pattern.java:3790)
+        at java.util.regex.Pattern$Curly.match0(Pattern.java:4264)
+        at java.util.regex.Pattern$Curly.match0(Pattern.java:4277)
+        at java.util.regex.Pattern$Curly.match0(Pattern.java:4277)
+        at java.util.regex.Pattern$Curly.match0(Pattern.java:4277)
+        at java.util.regex.Pattern$Curly.match0(Pattern.java:4277)
+        at java.util.regex.Pattern$Curly.match0(Pattern.java:4277)
+        at java.util.regex.Pattern$Curly.match0(Pattern.java:4277)
+        at java.util.regex.Pattern$Curly.match0(Pattern.java:4277)`
