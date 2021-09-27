@@ -23,3 +23,11 @@ java version:
 `java version "1.8.0_301"
 Java(TM) SE Runtime Environment (build 1.8.0_301-b09)
 Java HotSpot(TM) 64-Bit Server VM (build 25.301-b09, mixed mode)`
+
+## compile
+
+`mvn clean compile`
+
+## run 
+
+`mvn exec:java`
